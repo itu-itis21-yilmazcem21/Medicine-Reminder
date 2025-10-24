@@ -1,27 +1,38 @@
-This project develops a simple, working Flutter (Dart) mobile application called Medicine Reminder that helps users take their medication on time and track adherence. The app targets
-Android and iOS and focuses on core features: creating medicine schedules, local notifications for
-timely reminders, snooze and mark-as-taken actions, adherence summaries, and basic persistence
-on-device. The design emphasizes reliability, ease of use, and minimal configuration for patients
-and caregivers. The implementation leverages Flutter for cross-platform UI, local notification
-services for on-time alerts, and a lightweight local database for records. Evaluation will consider
-reminder delivery accuracy, task completion rate, and user-perceived usability. The expected
-outcome is a stable initial working release that improves day-to-day adherence through timely
-reminders and simple tracking.
+# 💊 Medicine Reminder
 
+A simple and reliable Flutter (Dart) mobile application that helps users **take their medication on time** and **track adherence**.  
+The app is designed for both **Android** and **iOS**, focusing on usability and reliability for patients and caregivers.
 
-# my_app
+---
 
-A new Flutter project.
+## 🚀 Features
 
-## Getting Started
+- 🕒 **Medicine Scheduling:** Create and manage medicine schedules with dosage and frequency.  
+- 🔔 **Local Notifications:** Timely reminders with support for snooze and mark-as-taken actions.  
+- 📊 **Adherence Tracking:** View summaries of taken and missed doses.  
+- 💾 **Offline Persistence:** All data is stored locally for reliability.  
+- 🧭 **Cross-Platform Support:** Works seamlessly on both Android and iOS.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Framework:** Flutter (Dart)  
+- **Database:** sqflite (local persistence)  
+- **Notifications:** flutter_local_notifications  
+- **State Management:** Provider or Riverpod (as applicable)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Screenshots *(optional)*
+
+> Add screenshots or GIFs here to showcase the UI and key interactions.
+
+---
+
+## 🧩 Getting Started
+
+### Prerequisites
+Make sure you have Flutter installed. You can check with:
+```bash
+flutter doctor
