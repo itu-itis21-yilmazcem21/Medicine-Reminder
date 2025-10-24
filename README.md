@@ -24,7 +24,7 @@ The app is designed for both **Android** and **iOS**, focusing on usability and 
 
 ---
 
-## 📱 Screenshots *(optional)*
+## 📱 Screenshots 
 
 > Add screenshots or GIFs here to showcase the UI and key interactions.
 
